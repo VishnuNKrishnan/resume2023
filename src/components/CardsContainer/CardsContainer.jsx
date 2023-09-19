@@ -91,7 +91,7 @@ function CardsContainer() {
     const skillsArray = [
         {
             title: 'React JS',
-            subText: 'Frontend Devlopment',
+            subText: 'Frontend Development',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695022314/Resume2023/reactIcon.png',
             proficiency: 75
         },
@@ -143,12 +143,23 @@ function CardsContainer() {
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695132328/Resume2023/GoogleBigQueryLogo_tze1hz.png',
             proficiency: 30
         },
-        ,
         {
             title: 'Google Cloud Functions',
             subText: 'Cloud Functions',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695132399/Resume2023/googleCloudFunctionsLogo_yy6miz.png',
             proficiency: 55
+        },
+        {
+            title: 'SendGrid',
+            subText: 'Automated Mailers',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695147374/Resume2023/sendGridLogo_mpjflz.png',
+            proficiency: 90
+        },
+        {
+            title: 'Twilio',
+            subText: 'Automated SMS and IVR',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695147447/Resume2023/twilioLogo_mhgxzs.png',
+            proficiency: 90
         },
         {
             title: 'AWS',
@@ -157,10 +168,22 @@ function CardsContainer() {
             proficiency: 45
         },
         {
+            title: 'Heroku',
+            subText: 'CI/CD Pipeline',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695147664/Resume2023/herokuLogo_tsppsj.png',
+            proficiency: 70
+        },
+        {
             title: 'Git',
             subText: 'Version Control',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695132442/Resume2023/gitLogo_mazfzp.png',
             proficiency: 75
+        },
+        {
+            title: 'Azure DevOps',
+            subText: 'Task Tracking',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695147781/Resume2023/azureDevOpsLogo_oissmz.webp',
+            proficiency: 60
         }
     ]
 
