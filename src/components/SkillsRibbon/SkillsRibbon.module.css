@@ -1,0 +1,45 @@
+.ribbon{
+    width: 100%;
+    /* height: 30px; */
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ribbon .item{
+    /* background-color: tomato; */
+    /* height: 30px; */
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .ribbon .item {
+        justify-content: center;
+    }
+}
+
+.ribbon .item .customIcon{
+    height: 30px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ribbon .item .customIcon img{
+    height: 13px;
+}
+
+.ribbon .item .writeUp{
+    margin: 0 20px 0 0;
+    color: black;
+    font-size: 13px;
+    font-weight: 200;
+}

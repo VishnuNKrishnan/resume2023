@@ -1,0 +1,44 @@
+.card{
+    /* height: 150px; */
+    /* width: 750px; */
+    margin-top: 45px;
+    background-color: white;
+    border-radius: 5px;
+    border-left: 10px solid rgb(220, 220, 220);
+    /* background: rgba(82, 74, 74, 0.2); */
+    /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%); */
+}
+
+.cardTitle{
+    letter-spacing: 0px;
+    font-weight: 200;
+    font-size: 28px;
+    text-shadow: 2px 0 3px #33333376;
+    transform: translate(-38.5px, -10px);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3px 10px;
+    width: fit-content;
+    color: rgb(82, 74, 74);
+}
+
+.content{
+    text-decoration: none;
+    list-style: none;
+    transform: translate(20px);
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 100;
+    width: calc(100% - 25px);
+}
+
+.contentItem{
+    margin: 15px 0;
+}
+
+.cardsHolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

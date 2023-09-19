@@ -1,0 +1,73 @@
+.card{
+    background-color: blanchedalmond;
+    background: rgb(42,41,46);
+    background: linear-gradient(0deg, rgba(42,41,46,1) 0%, rgba(59,58,63,1) 100%);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.bgGraphic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695044478/Resume2023/dotBG.jpg');
+    height: 185px;
+    width: 100%;
+    background-size: 5%;
+    opacity: 20%;
+}
+
+.infoHolder{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoHolder .writeUp{
+    /* background-color: beige; */
+    text-align: right;
+    width: 700px;
+}
+
+.infoHolder .photo{
+    height: 175px;
+    width: 136px;
+    background-image: url('https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695019239/Resume2023/vishnunkrishnan.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(115%) translateY(20px);
+    border-radius: 5px;
+    box-shadow: 0px 0px 13px 2px #595959;
+}
+
+@media only screen and (max-width: 600px) {
+    .infoHolder .photo {
+      display: none;
+    }
+}
+
+.fullname{
+    font-weight: 900;
+    color: #eee;
+}
+
+@media only screen and (max-width: 600px) {
+    .infoHolder .writeUp{
+        text-align: center;
+    }
+}
+
+.designation{
+    font-size: 14px;
+    color: #a8a8a8;
+    display: inline;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .designation{
+        display: block;
+    }
+}

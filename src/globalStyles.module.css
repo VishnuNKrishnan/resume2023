@@ -1,0 +1,25 @@
+.icon{
+    font-size: 16px;
+    transform: translateY(3px);
+    margin-right: 5px;
+    font-weight: 200;
+}
+
+.titleIcon{
+    font-size: 27px;
+    transform: translateY(4px);
+    margin-right: 10px;
+    font-weight: 200;
+    background-color: rgb(220, 220, 220);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+@media print {
+    .pageBreak {page-break-after: always;}
+    .hideOnPrint {display: none;}
+}
+
+@media screen {
+    .hideOnScreen{display: none;}
+}

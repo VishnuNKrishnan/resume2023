@@ -1,0 +1,15 @@
+.cardsContainer{
+    height: 100%;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    padding: 5px 10px;
+    margin-top: 40px;
+}
+
+.cardsHolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* background-color: rgb(65, 48, 27); */
+}

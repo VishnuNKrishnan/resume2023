@@ -1,0 +1,48 @@
+.card{
+    /* width: 300px; */
+    /* height: 100px; */
+    /* background-color: rgb(132, 128, 128); */
+    padding: 10px;
+    width: 48%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.companyName{
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+    color: #747474;
+}
+
+.period{
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+    color: #747474;
+}
+
+.writeUp{
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+    color: #353535;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #ebebeb;
+    text-align: justify;
+}
+
+.companyLogo{
+    height: 10px;
+    margin-bottom: 15px;
+}
