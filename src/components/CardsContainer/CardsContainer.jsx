@@ -93,25 +93,25 @@ function CardsContainer() {
             title: 'React JS',
             subText: 'Frontend Devlopment',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695022314/Resume2023/reactIcon.png',
-            proficiency: 80
+            proficiency: 75
         },
         {
             title: 'Node JS',
             subText: 'Backend Development',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695132589/Resume2023/nodeJSLogo_ismdo2.png',
-            proficiency: 85
+            proficiency: 70
         },
         {
             title: 'Express with Node',
             subText: 'API Development',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695045434/Resume2023/expressLogo_vh8zbe.png',
-            proficiency: 80
+            proficiency: 78
         },
         {
             title: 'Gatsby',
             subText: 'Static Site Generation',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695139729/Resume2023/gatsbyLogo_ubcwda.png',
-            proficiency: 80
+            proficiency: 65
         },
         {
             title: 'PHP',
@@ -135,7 +135,7 @@ function CardsContainer() {
             title: 'SQL',
             subText: 'Relational Database',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695132265/Resume2023/SQLLogo_aypb5f.png',
-            proficiency: 75
+            proficiency: 50
         },
         {
             title: 'Google Big Query',
@@ -148,13 +148,13 @@ function CardsContainer() {
             title: 'Google Cloud Functions',
             subText: 'Cloud Functions',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695132399/Resume2023/googleCloudFunctionsLogo_yy6miz.png',
-            proficiency: 50
+            proficiency: 55
         },
         {
             title: 'AWS',
             subText: 'CI/CD Pipeline',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695140418/Resume2023/awsLogo_nbe86w.png',
-            proficiency: 75
+            proficiency: 45
         },
         {
             title: 'Git',
