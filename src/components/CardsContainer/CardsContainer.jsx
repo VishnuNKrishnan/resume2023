@@ -187,6 +187,21 @@ function CardsContainer() {
         }
     ]
 
+    const educationArray = [
+        {
+            title: 'King\'s College London',
+            subText: 'MA Digital Asset and Media Management',
+            writeUp: '2019 | Passed with Merit',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695235244/KCLLogo_eomldc.svg'
+        },
+        {
+            title: 'PSG College of Arts and Science',
+            subText: 'B.Sc. Visual Communication',
+            writeUp: '2017',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695235640/PSGCASLogo_mtx3mo.png'
+        }
+    ]
+
     return (
         <div className={Styles.cardsContainer}>
             <div className="container">
@@ -233,6 +248,14 @@ function CardsContainer() {
                         content={skillsArray}
                         width={'100%'}
                         type={'skill'}
+                    />
+
+                    <WriteUpCard
+                        title={'Education'}
+                        googleIcon={'school'}
+                        content={educationArray}
+                        width={'100%'}
+                        type={'education'}
                     />
                 </div>
             </div>

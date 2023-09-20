@@ -19,7 +19,7 @@ function MessgenerInput() {
 
     return (
         <div className={`${Styles.MessgenerInputHolder} ${GlobalStyles.hideOnPrint}`}>
-            <div className="container">
+            <div className={`${Styles.centerAlign} container`}>
                 <div className={Styles.wrapper}>
                     <input className={Styles.input} placeholder="👋 Let's connect via WhatsApp!" type="text" value={message} onChange={e => { setMessage(e.target.value) }} />
                     <button className={`${Styles.button} ${error ? Styles.inactive : Styles.active}`} onClick={() => redirectToWhatsapp()}>
