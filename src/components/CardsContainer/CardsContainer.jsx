@@ -132,6 +132,18 @@ function CardsContainer() {
             proficiency: 75
         },
         {
+            title: 'Websockets',
+            subText: 'Real time stateful data transfer',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695469792/websocketsLogo_luecmm.png',
+            proficiency: 75
+        },
+        {
+            title: 'Progressive Web Apps',
+            subText: 'PWAs',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695469069/pwaLogo_fpm03t.webp',
+            proficiency: 75
+        },
+        {
             title: 'SQL',
             subText: 'Relational Database',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695132265/Resume2023/SQLLogo_aypb5f.png',
@@ -184,6 +196,18 @@ function CardsContainer() {
             subText: 'Task Tracking',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695147781/Resume2023/azureDevOpsLogo_oissmz.webp',
             proficiency: 60
+        },
+        {
+            title: 'Internet of Things',
+            subText: 'Tracking, Sensors, SBCs etc.',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695468665/iotLogo_iwtfzr.png',
+            proficiency: 45
+        },
+        {
+            title: 'Python',
+            subText: 'Learning in progress',
+            icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695470239/pythonLogo_m6adm3.png',
+            proficiency: 20
         }
     ]
 
