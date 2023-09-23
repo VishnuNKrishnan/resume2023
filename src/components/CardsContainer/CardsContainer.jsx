@@ -7,8 +7,8 @@ function CardsContainer() {
     const profileArray = [
         'Self-taught web applications developer with notable achievements such as successful, self-led app development and deployment for clients and employer, independently and within a team.',
         'Skilled in creating custom, scalable web applications (front end and backend) that help to automate manual tasks, ease workflow and help with reporting. Experienced in data integrations using tools like Zapier, and also by building custom APIs using NodeJS, Express and Google Cloud Functions.',
-        'Efficient Team Leader and Cooperative Team Player who imparts valuable knowledge to facilitate the delivery of exceptional products, adding value to the busines.',
-        'MA Digital Asset & Media Management Graduate from King’s College London',
+        'Efficient Team Leader and Cooperative Team Player who imparts valuable knowledge to facilitate the delivery of exceptional products, adding value to the business.',
+        'MA Digital Asset & Media Management Graduate from King’s College London.',
     ]
 
     const strengthsArray = [
