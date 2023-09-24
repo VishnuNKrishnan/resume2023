@@ -12,3 +12,13 @@
   background-color: #fff;
   /* background-blend-mode: lighten; */
 }
+
+.zoomable{
+  transition: all 0.2s ease-in-out;
+}
+
+@media print{
+  .zoomable{
+    zoom: 100%;
+  }
+}

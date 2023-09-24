@@ -84,7 +84,7 @@ function CardsContainer() {
         {
             title: 'IoT (Internet of Things)',
             icon: 'https://res.cloudinary.com/dq6dbt6lg/image/upload/v1695136035/Resume2023/iotSymbol_h2gthi.png',
-            description: 'Involved in the creation of an IoT based vehicle tracker/fleet management platform from scratch. Responsibilities include generating a React based front end, APIs on a Node.js backend, integrating multiple external services, automated SMS and email notifications and more.'
+            description: 'Involved in the creation of an IoT based vehicle tracker/fleet management platform from scratch. Responsibilities include generating a React based front end, APIs on a Node.js backend, integrating multiple external services (Open Cage API and OpenWeatherMap to name a few), automated SMS and email notifications and more.'
         }
     ]
 
