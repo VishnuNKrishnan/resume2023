@@ -5,6 +5,7 @@ import ExperienceCard from '../ExperienceCard/ExperienceCard'
 import AchievementCard from '../AchievementCard/AchievementCard'
 import SkillsCard from '../SkillsCard/SkillsCard'
 import EducationCard from '../EducationCard/EducationCard'
+import MessgenerInput from '../MessengerInput/MessengerInput'
 
 function WriteUpCard({ ...props }) {
     return (
@@ -89,6 +90,12 @@ function WriteUpCard({ ...props }) {
                             })
                         }
                     </div>
+                </div>}
+
+            {(props.type == 'message') &&
+                <div className={`${Styles.card} ${GlobalStyles.hideOnPrint}`} style={{ width: props.width ? props.width : '750px' }}>
+                    <h3 className={Styles.cardTitle}><span className={`${GlobalStyles.titleIcon} material-symbols-outlined`}>{props.googleIcon}</span>{props.title}</h3>
+                    <MessgenerInput />
                 </div>}
         </>
     )

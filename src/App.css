@@ -17,8 +17,17 @@
   transition: all 0.2s ease-in-out;
 }
 
+.spacer{
+  width: 100%;
+  height: 100px;
+}
+
 @media print{
   .zoomable{
     zoom: 100%;
+  }
+
+  .spacer{
+    display: none;
   }
 }

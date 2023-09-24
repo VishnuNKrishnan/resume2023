@@ -12,6 +12,9 @@ function MessgenerInput() {
     }, [message])
 
     const redirectToWhatsapp = () => {
+        if (message == '') {
+            return
+        }
         const whatsappUrl = `https://wa.me/971506738672?text=${message}`
         setMessage('')
         window.open(whatsappUrl, '_blank');

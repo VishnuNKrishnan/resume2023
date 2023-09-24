@@ -231,6 +231,12 @@ function CardsContainer() {
             <div className="container">
                 <div className={Styles.cardsHolder}>
 
+                    <WriteUpCard
+                        title={'Message Me'}
+                        googleIcon={'forum'}
+                        width={'100%'}
+                        type={'message'}
+                    />
 
                     <WriteUpCard
                         title={'Profile'}
@@ -280,6 +286,13 @@ function CardsContainer() {
                         content={educationArray}
                         width={'100%'}
                         type={'education'}
+                    />
+
+                    <WriteUpCard
+                        title={'Message Me'}
+                        googleIcon={'forum'}
+                        width={'100%'}
+                        type={'message'}
                     />
                 </div>
             </div>

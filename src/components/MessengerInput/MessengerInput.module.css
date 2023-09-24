@@ -1,6 +1,7 @@
 .MessgenerInputHolder{
-    margin: 60px 0;
+    /* margin: 60px 0; */
     width: 100%;
+    transform: translateX(-15px);
     /* background-color: antiquewhite; */
 }
 
@@ -31,7 +32,7 @@
     width: 100%;
     border: none;
     border: 1px solid rgb(220, 220, 220);
-    border-radius: 5px;
+    border-left: none;
     outline: none;
 }
 
@@ -46,14 +47,19 @@
     cursor: pointer;
     border-radius: 0 5px 5px 0;
     transition: transform 0.2s ease-in-out;
+    outline: none;
 }
 
 .active{
     transform: translateX(-5px);
+    cursor: pointer;
+    opacity: 1;
 }
 
 .inactive{
-    transform: translateX(45px);
+    /* transform: translateX(45px); */
+    cursor: not-allowed;
+    opacity: 0.3;
 }
 
 .sendButtonImg{

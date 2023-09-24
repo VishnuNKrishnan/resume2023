@@ -39,14 +39,13 @@ function App() {
         <div className="zoomable" style={{ "zoom": `${zoom}%` }}>
           <Intro />
           <SkillsRibbon />
-          <MessengerInput />
           <CardsContainer />
-          <MessengerInput />
           <WhatsappQR />
         </div>
         <PrintBtn />
         <ZoomBtnSet />
         <ShareBtn />
+        <div className="spacer"></div>
       </div>
     </UserContext.Provider>
   );
