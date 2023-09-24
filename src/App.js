@@ -6,9 +6,11 @@ import Intro from './components/Intro/Intro';
 import MessengerInput from './components/MessengerInput/MessengerInput';
 import PrintBtn from './components/PrintBtn/PrintBtn';
 import SkillsRibbon from './components/SkillsRibbon/SkillsRibbon';
-import WhatsappQR from './components/WhatsappQR/WhatsappQR';
+import WhatsappQR from './components/QRCode/QRCode';
 import ZoomBtnSet from './components/ZoomBtnSet/ZoomBtnSet';
 import ShareBtn from './components/ShareBtn/ShareBtn';
+import QrCodesRibbon from './components/QrCodesRibbon/QrCodesRibbon';
+import DownloadBtn from './components/DownloadBtn/DownloadBtn';
 
 function App() {
 
@@ -40,9 +42,11 @@ function App() {
           <Intro />
           <SkillsRibbon />
           <CardsContainer />
-          <WhatsappQR />
+          {/* <WhatsappQR /> */}
+          <QrCodesRibbon />
         </div>
         <PrintBtn />
+        <DownloadBtn />
         <ZoomBtnSet />
         <ShareBtn />
         <div className="spacer"></div>

@@ -1,0 +1,36 @@
+.btn{
+    position: fixed;
+    right: 20px;
+    bottom: 260px;
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 90, 90);
+    text-decoration: none;
+}
+
+.btn:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn{
+      bottom: 20px;
+      right: 100px;
+    }
+}
+
+@media print {
+    .btn{
+        display: none;
+    }
+}
+
+.btn span{
+    color: white;
+}
