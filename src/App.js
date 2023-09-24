@@ -8,6 +8,7 @@ import PrintBtn from './components/PrintBtn/PrintBtn';
 import SkillsRibbon from './components/SkillsRibbon/SkillsRibbon';
 import WhatsappQR from './components/WhatsappQR/WhatsappQR';
 import ZoomBtnSet from './components/ZoomBtnSet/ZoomBtnSet';
+import ShareBtn from './components/ShareBtn/ShareBtn';
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
         </div>
         <PrintBtn />
         <ZoomBtnSet />
+        <ShareBtn />
       </div>
     </UserContext.Provider>
   );
